@@ -129,6 +129,7 @@
 }
 
 .section-5 {
+  display: inline;
   padding-bottom: 20px;
   background-color: #d8d8d8;
 }
@@ -242,19 +243,16 @@
 .worktitle.white {
   margin-top: 0px;
   padding-top: 60px;
-  background-image: -webkit-linear-gradient(270deg, rgba(193, 0, 15, .75), rgba(193, 0, 15, .75));
   background-image: linear-gradient(180deg, rgba(193, 0, 15, .75), rgba(193, 0, 15, .75));
 }
 
 .worktitle.white.bbg {
-  background-image: -webkit-linear-gradient(270deg, rgba(40, 187, 238, .75), rgba(40, 187, 238, .75));
   background-image: linear-gradient(180deg, rgba(40, 187, 238, .75), rgba(40, 187, 238, .75));
 }
 
 .worktitle.red {
   margin-top: 0px;
   padding-top: 60px;
-  background-image: -webkit-linear-gradient(270deg, rgba(246, 250, 249, .75), rgba(246, 250, 249, .75));
   background-image: linear-gradient(180deg, rgba(246, 250, 249, .75), rgba(246, 250, 249, .75));
   color: #c1000f;
 }
@@ -267,6 +265,30 @@
 .div-block {
   height: 0px;
   margin-top: -75px;
+}
+
+.redcover {
+  opacity: 0;
+}
+
+.redcover:hover {
+  opacity: 1;
+}
+
+.whitecover {
+  opacity: 0;
+}
+
+.whitecover:hover {
+  opacity: 1;
+}
+
+.bluecover {
+  opacity: 0;
+}
+
+.bluecover:hover {
+  opacity: 1;
 }
 
 .container-4 {
@@ -464,20 +486,6 @@
   direction: ltr;
 }
 
-html.w-mod-js *[data-ix="hoverwork"] {
-  opacity: 0;
-  -webkit-transform: scale(0.9, 0.9);
-  -ms-transform: scale(0.9, 0.9);
-  transform: scale(0.9, 0.9);
-}
-
-html.w-mod-js *[data-ix="navhover"] {
-  opacity: 0;
-}
-
-html.w-mod-js *[data-ix="navhover-2"] {
-  opacity: 0;
-}
 
 @media (max-width: 991px) {
   .container-2 {
@@ -581,61 +589,61 @@ html.w-mod-js *[data-ix="navhover-2"] {
 
 @font-face {
   font-family: 'Fedrasanspro';
-  src: url('../fonts/FedraSansPro-Bold.otf') format('opentype');
+  src: url('../fonts/FedraSansPro Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Fedrasanspro';
-  src: url('../fonts/FedraSansPro-LightItalic.otf') format('opentype');
+  src: url('../fonts/FedraSansPro LightItalic.otf') format('opentype');
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
   font-family: 'Fedrasanspro';
-  src: url('../fonts/FedraSansPro-BoldItalic.otf') format('opentype');
+  src: url('../fonts/FedraSansPro BoldItalic.otf') format('opentype');
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
   font-family: 'Fedrasanspro book';
-  src: url('../fonts/FedraSansPro-Book.otf') format('opentype');
+  src: url('../fonts/FedraSansPro Book.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Fedrasanspro';
-  src: url('../fonts/FedraSansPro-Light.otf') format('opentype');
+  src: url('../fonts/FedraSansPro Light.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'Fedrasanspro';
-  src: url('../fonts/FedraSansPro-Medium.otf') format('opentype');
+  src: url('../fonts/FedraSansPro Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'Fedrasanspro';
-  src: url('../fonts/FedraSansPro-BookItalic.otf') format('opentype'), url('../fonts/FedraSansPro-NormalItalic.otf') format('opentype');
+  src: url('../fonts/FedraSansPro BookItalic.otf') format('opentype'), url('../fonts/FedraSansPro-NormalItalic.otf') format('opentype');
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: 'Fedrasanspro';
-  src: url('../fonts/FedraSansPro-MediumItalic.otf') format('opentype');
+  src: url('../fonts/FedraSansPro MediumItalic.otf') format('opentype');
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
   font-family: 'Fedraserifapro';
-  src: url('../fonts/FedraSerifAPro-Bold.otf') format('opentype');
+  src: url('../fonts/FedraSerifAPro Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Fedrasanspro';
-  src: url('../fonts/FedraSansPro-Normal.otf') format('opentype');
+  src: url('../fonts/FedraSansPro Normal.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
