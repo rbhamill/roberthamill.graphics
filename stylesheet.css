@@ -71,6 +71,17 @@
   font-weight: 300;
 }
 
+.workparagraph {
+  width: 800px;
+  margin-top: 200px;
+  padding-left: 0px;
+  font-family: 'Fedraserifapro book', sans-serif;
+  color: #c1000e;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
 .workparagraph.subtitle {
   width: 415px;
   margin-top: 0px;
@@ -151,8 +162,8 @@
 }
 
 .worklinks {
-  width: 415px;
-  height: 180px;
+  width: 332px;
+  height: 228px;
   margin: 10px;
   float: left;
   background-position: 0px 0px;
@@ -160,7 +171,15 @@
 }
 
 .worklinks.a {
-  background-image: url('../images/PANTHtnail.png');
+  background-image: url('../images/pantheon_unselected.png');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+  font-family: Fedrasanspro, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+.worklinks.a:click {
+  background-image: url('../images/pantheon_selected.png');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   font-family: Fedrasanspro, sans-serif;
@@ -169,35 +188,42 @@
 }
 
 .worklinks.b {
-  background-image: url('../images/SMtnail.png');
+  background-image: url('../images/keene_unselected.png');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   text-decoration: none;
 }
 
 .worklinks.c {
-  background-image: url('../images/KEENEtnail.png');
+  background-image: url('../images/studiomate_unselected');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   text-decoration: none;
 }
 
 .worklinks.d {
-  background-image: url('../images/NUtnail.png');
+  background-image: url('../images/nu_unselected');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   text-decoration: none;
 }
 
 .worklinks.e {
-  background-image: url('../images/MTGtnail.png');
+  background-image: url('../images/magic_unselected');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   text-decoration: none;
 }
 
 .worklinks.f {
-  background-image: url('../images/AUTtnail.png');
+  background-image: url('../images/auteur_unselected');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+  text-decoration: none;
+}
+
+.worklinks.g {
+  background-image: url('../images/boxset_unselected');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   text-decoration: none;
@@ -351,28 +377,7 @@
   padding-left: 0px;
 }
 
-.row-3 {
-  display: inline;
-  width: 450px;
-  margin-right: 0px;
-  margin-left: 0px;
-}
 
-.column-9 {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
-.nava {
-  position: relative;
-  bottom: 27px;
-  margin: 16px 80px 10px 46px;
-  font-family: Fedrasanspro, sans-serif;
-  color: #a2dbe4;
-  font-size: 18px;
-  letter-spacing: 1.6px;
-  text-decoration: none;
-}
 
 .about {
   margin-top: 200px;
