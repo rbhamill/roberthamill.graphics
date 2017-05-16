@@ -61,7 +61,7 @@
 
 .heading {
   display: inline-block;
-  width: 500px;
+  width: 415px;
   margin-top: 0px;
   padding-top: 0px;
   font-family: Fedrasanspro, sans-serif;
@@ -71,24 +71,22 @@
   font-weight: 300;
 }
 
-.workparagraph {
-  width: 800px;
+.workparagraph.heading {
+  width: 415px;
   margin-top: 200px;
   padding-left: 0px;
-  font-family: 'Fedraserifapro book', sans-serif;
+  font-family: Fedrasanspro, sans-serif;
   color: #c1000e;
   font-size: 12px;
   line-height: 19px;
   font-weight: 400;
 }
 
-.workparagraph.work {
+.workparagraph.subtitle {
   width: 300px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 57px;
-  background-image: -webkit-linear-gradient(270deg, rgba(193, 0, 15, .75), rgba(193, 0, 15, .75));
-  background-image: linear-gradient(180deg, rgba(193, 0, 15, .75), rgba(193, 0, 15, .75));
   font-family: Fedraserifapro, sans-serif;
   color: #fff;
   font-size: 11px;
@@ -248,10 +246,6 @@
   margin-top: 0px;
   padding-top: 60px;
   background-image: linear-gradient(180deg, rgba(193, 0, 15, .75), rgba(193, 0, 15, .75));
-}
-
-.worktitle.white.bbg {
-  background-image: linear-gradient(180deg, rgba(40, 187, 238, .75), rgba(40, 187, 238, .75));
 }
 
 .worktitle.red {
