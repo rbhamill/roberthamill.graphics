@@ -9,11 +9,20 @@
 }
 
 .container {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: inline-block;
+  width: 200px;
   margin-top: 0px;
-  margin-bottom: -43px;
+  margin-bottom: 0px;
   padding-top: 100px;
-  padding-left: 0px;
-  text-align: center;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .image-2 {
@@ -110,6 +119,7 @@
   margin-top: 0px;
   margin-bottom: 25px;
   padding-top: 40px;
+  background-color: #1D2324;
 }
 
 .column {
@@ -168,9 +178,7 @@
 }
 
 .worklinks.a {
-  background-color: #0098ff;
-  background-image: -webkit-linear-gradient(270deg, rgba(193, 0, 15, 0), rgba(193, 0, 15, 0)), url('../images/PANTHtnail.png');
-  background-image: linear-gradient(180deg, rgba(193, 0, 15, 0), rgba(193, 0, 15, 0)), url('../images/PANTHtnail.png');
+  background-image: url('../images/PANTHtnail.png');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   font-family: Fedrasanspro, sans-serif;
@@ -179,40 +187,35 @@
 }
 
 .worklinks.b {
-  background-image: -webkit-linear-gradient(270deg, rgba(246, 250, 249, 0), rgba(246, 250, 249, 0)), url('../images/SMtnail.png');
-  background-image: linear-gradient(180deg, rgba(246, 250, 249, 0), rgba(246, 250, 249, 0)), url('../images/SMtnail.png');
+  background-image: url('../images/SMtnail.png');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   text-decoration: none;
 }
 
 .worklinks.c {
-  background-image: -webkit-linear-gradient(270deg, rgba(40, 187, 238, 0), rgba(40, 187, 238, 0)), url('../images/KEENEtnail.png');
-  background-image: linear-gradient(180deg, rgba(40, 187, 238, 0), rgba(40, 187, 238, 0)), url('../images/KEENEtnail.png');
+  background-image: url('../images/KEENEtnail.png');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   text-decoration: none;
 }
 
 .worklinks.d {
-  background-image: -webkit-linear-gradient(270deg, rgba(40, 187, 238, 0), rgba(40, 187, 238, 0)), url('../images/NUtnail.png');
-  background-image: linear-gradient(180deg, rgba(40, 187, 238, 0), rgba(40, 187, 238, 0)), url('../images/NUtnail.png');
+  background-image: url('../images/NUtnail.png');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   text-decoration: none;
 }
 
 .worklinks.e {
-  background-image: -webkit-linear-gradient(270deg, rgba(193, 0, 15, 0), rgba(193, 0, 15, 0)), url('../images/MTGtnail.png');
-  background-image: linear-gradient(180deg, rgba(193, 0, 15, 0), rgba(193, 0, 15, 0)), url('../images/MTGtnail.png');
+  background-image: url('../images/MTGtnail.png');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   text-decoration: none;
 }
 
 .worklinks.f {
-  background-image: -webkit-linear-gradient(270deg, rgba(246, 250, 249, 0), rgba(246, 250, 249, 0)), url('../images/AUTtnail.png');
-  background-image: linear-gradient(180deg, rgba(246, 250, 249, 0), rgba(246, 250, 249, 0)), url('../images/AUTtnail.png');
+  background-image: url('../images/AUTtnail.png');
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   text-decoration: none;
