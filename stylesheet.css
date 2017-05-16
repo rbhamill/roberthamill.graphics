@@ -172,16 +172,12 @@
 
 .worklinks.a {
   background-image: url('../images/pantheon_unselected.png');
-  background-position: 0px 0px, 0px 0px;
-  background-size: auto, cover;
   font-family: Fedrasanspro, sans-serif;
   font-weight: 400;
   text-decoration: none;
 }
 .worklinks.a:click {
   background-image: url('../images/pantheon_selected.png');
-  background-position: 0px 0px, 0px 0px;
-  background-size: auto, cover;
   font-family: Fedrasanspro, sans-serif;
   font-weight: 400;
   text-decoration: none;
@@ -189,43 +185,31 @@
 
 .worklinks.b {
   background-image: url('../images/keene_unselected.png');
-  background-position: 0px 0px, 0px 0px;
-  background-size: auto, cover;
   text-decoration: none;
 }
 
 .worklinks.c {
   background-image: url('../images/studiomate_unselected');
-  background-position: 0px 0px, 0px 0px;
-  background-size: auto, cover;
   text-decoration: none;
 }
 
 .worklinks.d {
   background-image: url('../images/nu_unselected');
-  background-position: 0px 0px, 0px 0px;
-  background-size: auto, cover;
   text-decoration: none;
 }
 
 .worklinks.e {
   background-image: url('../images/magic_unselected');
-  background-position: 0px 0px, 0px 0px;
-  background-size: auto, cover;
   text-decoration: none;
 }
 
 .worklinks.f {
   background-image: url('../images/auteur_unselected');
-  background-position: 0px 0px, 0px 0px;
-  background-size: auto, cover;
   text-decoration: none;
 }
 
 .worklinks.g {
   background-image: url('../images/boxset_unselected');
-  background-position: 0px 0px, 0px 0px;
-  background-size: auto, cover;
   text-decoration: none;
 }
 
