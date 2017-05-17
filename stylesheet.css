@@ -113,22 +113,9 @@
   margin-top: 0px;
   padding-top: 40px;
   background-color: #1D2324;
+  align-content: center;
 }
 
-.column {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-.column-2 {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
-.column-3 {
-  padding-right: 10px;
-  padding-left: 10px;
-}
 
 .section-5 {
   display: inline;
@@ -142,22 +129,13 @@
   text-align: center;
 }
 
-.image-5 {
-  padding: 20px;
-  text-align: center;
-}
-
-.image-6 {
-  padding: 25px;
-}
-
 .image-7 {
   margin-bottom: 40px;
   text-align: center;
 }
 
 .workcontainer {
-  margin: 0px 20px;
+  margin: 20px;
   text-align: center;
 }
 
@@ -175,7 +153,7 @@
   font-weight: 400;
   text-decoration: none;
 }
-.worklinks.a:click {
+.worklinks.a:hover {
   background-image: url('../images/pantheon_selected.png');
   font-family: Fedrasanspro, sans-serif;
   font-weight: 400;
@@ -253,11 +231,6 @@
   text-align: center;
 }
 
-.div-block {
-  height: 0px;
-  margin-top: -75px;
-}
-
 .redcover {
   opacity: 0;
 }
@@ -299,11 +272,6 @@
   padding-top: 20px;
   padding-bottom: 15px;
   text-align: center;
-}
-
-.image-8 {
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 .topnav {
@@ -402,14 +370,6 @@
   color: #a4dbe3;
   font-size: 18px;
   letter-spacing: 1.6px;
-  text-decoration: none;
-}
-
-.image-11 {
-  text-decoration: none;
-}
-
-.link-block {
   text-decoration: none;
 }
 
