@@ -1111,6 +1111,7 @@
   background-image: url('../images/red.png');
   background-position: 0px 100%;
   background-size: 635px;
+  background-blend-mode: color-burn;
   opacity: 0;
 }
 
