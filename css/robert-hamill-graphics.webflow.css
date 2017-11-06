@@ -1104,12 +1104,11 @@
 
 .div-block-38 {
   position: relative;
-  z-index: 2;
+  z-index: 4;
   height: 100%;
   padding-bottom: 32px;
   padding-left: 32px;
   background-image: url('../images/red.png');
-  mix-blend-mode: multiply;
   background-position: 0px 100%;
   background-size: 635px;
   opacity: 0;
@@ -1119,14 +1118,14 @@
   position: absolute;
   left: 18px;
   bottom: 12px;
-  z-index: 3;
+  z-index: 5;
+  opacity: 0;
   font-family: Fedrasanspro, sans-serif;
   font-size: 36px;
   line-height: 40px;
   font-weight: 700;
   text-align: left;
   letter-spacing: 3px;
-  mix-blend-mode: normal;
 }
 
 .text-span-8 {
@@ -1175,6 +1174,10 @@
   width: 232px;
 }
 
+.div-block-39 {
+  height: 100%;
+}
+
 html.w-mod-js *[data-ix="decohover"] {
   opacity: 0;
 }
@@ -1185,6 +1188,13 @@ html.w-mod-js *[data-ix="enter-hover"] {
 
 html.w-mod-js *[data-ix="new-interaction"] {
   opacity: 0;
+}
+
+html.w-mod-js *[data-ix="workhover-2"] {
+  opacity: 0;
+  -webkit-transform: translate(0px, 6px);
+  -ms-transform: translate(0px, 6px);
+  transform: translate(0px, 6px);
 }
 
 @media (max-width: 991px) {
